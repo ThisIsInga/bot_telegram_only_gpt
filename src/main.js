@@ -43,8 +43,8 @@ class MyTelegramBot extends HtmlTelegramBot {
 }
 
 // обьект телеграмм-бота:
-const chatgpt = new ChatGptService('gpt:AI6Jk5emA0osUkc2nivglWTowjq5GNCo2bpddaqxeEU8Jc4C4Zde0k5yHYJFkblB3TZ4vjiZ2EYkjx9hF0XMim3ZuBv5PzgpjMDJRq1trkAElmp9iUdQKCs0HqDc')
-const bot = new MyTelegramBot("7346998601:AAE5UACnttm2A_nmQUoZrxeNn8hJFiYD3P8");
+const chatgpt = new ChatGptService('#')
+const bot = new MyTelegramBot("#");
 // Мы будем писать тут наш код
 bot.onCommand( /\/start/ , bot.start)
 bot.onCommand( /\/gpt/ , bot.gpt)
